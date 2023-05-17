@@ -1,0 +1,14 @@
+*{
+    background-color: '#dadada';
+}
+
+.inicial{
+    font-size: 20;
+    color: blue;
+}
+
+.link{
+    color:black;
+    text-decoration: none;
+    display: block;
+}
