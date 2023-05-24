@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Página de cadastro de cliente</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar Clientes!</h1>
+        <h5>Nessa página os clientes são cadastrados.</h5>
+        <form action="http://localhost:8000/cadastrar" method="POST">
+            <label for="name">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </label>
+            <label for="cnpj">
+                <input type="text" name="cnpj" id="cnpj" placeholder="CNPJ">
+            </label>
+            <label for="limiteCredito">
+                <input type="number" name="limiteCredito" id="limiteCredito" placeholder="Limite de Crédito">
+            </label>
+            <label for="">
+                <input type="submit">
+            </label>
+        </form>
+
+        <a href="/">Voltar para página inicial</a>
+    </div>
+</body>
+</html>
