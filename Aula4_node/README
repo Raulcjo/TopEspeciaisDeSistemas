@@ -23,7 +23,7 @@ do node.js
 -> show database; - mostra todos os banco de dados existentes no mysql
 -> use "nomeDoBanco"; - Seleciona o banco para alterações
 -> show tables; - Mostra as tabelas existentes dentro do banco
--> create table "nomeDaTabela"(define_os_atributos_da_tabela); - cria uma tabela
+-> create table "nomeDaTabela"(define_os_atributos_da_tabela); - cria uma tabela com atributos e tipos específicos
         EXEMPLO:
         create table cliente(
         -> id_cliente int not null primary key auto_increment,
