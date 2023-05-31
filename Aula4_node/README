@@ -3,7 +3,7 @@
 -> cd / - volta para o C:, ou seja, sai de todas as pastas e volta para o começo
 -> dir - mostrar as pastas que podem ser acessadas
 -> cd "nomeDaPasta" - para entrar na pasta que deseja acessar
--> Ctrl + c - para deligar o servidor
+-> Ctrl + c - para deligar/derruba o servidor
 
 \\PARA EXECUTAR ESSE PROGRAMA:\\ 
 
