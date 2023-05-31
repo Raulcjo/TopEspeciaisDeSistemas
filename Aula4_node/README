@@ -1,0 +1,41 @@
+\\COMANDOS ALEATÓRIOS:\\
+
+-> cd / - volta para o C:, ou seja, sai de todas as pastas e volta para o começo
+-> dir - mostrar as pastas que podem ser acessadas
+-> cd "nomeDaPasta" - para entrar na pasta que deseja acessar
+-> Ctrl + c - para deligar o servidor
+
+\\PARA EXECUTAR ESSE PROGRAMA:\\ 
+
+-> Ative o prompt de comando, caso não funcione por esse tente pelo pormpt do comando
+do node.js
+-> cd C:\Users\autologon.CSED\Documents\Aula4_node - comando usado para acessar o projeto na faculdade
+-> nodemon index - para entrar no projeto
+-> npm install -g nodemon - baixa o nodemon
+-> npm install -g express - baixa o express
+
+\\MySQL\\:
+
+-> cd C:\Program Files\MySQL\MySQL Server 8.0\bin - comando usado para o MySQL no computador da faculdade.
+*OBS: Será pedido a senha para acessar o mysql
+
+-> create database "nomeDoBanco"; - cria um banco de dados
+-> show database; - mostra todos os banco de dados existentes no mysql
+-> use "nomeDoBanco"; - Seleciona o banco para alterações
+-> show tables; - Mostra as tabelas existentes dentro do banco
+-> create table "nomeDaTabela"(define_os_atributos_da_tabela); - cria uma tabela
+        EXEMPLO:
+        create table cliente(
+        -> id_cliente int not null primary key auto_increment,
+        -> nome varchar(100) not null,
+        -> cnpj varchar(14),
+        -> limite_credito decimal(5,2),
+        -> data_criacao timestamp default current_timestamp);
+
+-> insert into cliente(informe_os_atributos_a_serem_inseridos) values(valores_a_serem_inseridos); - insere valores dentro da tabela
+        EXEMPLO:
+         insert into cliente(nome, cnpj, limite_credito) values('Super Muffato','03398890756','50.10');
+         
+-> select user, host, plugin from user; - verifica os usuários existentes do banco
+-> alter user 'root'@'localhost' identified with mysql_native_password by 'escolhaSenha'; - muda a senha 
+-> exit - sai do banco de dados
